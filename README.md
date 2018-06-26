@@ -1,4 +1,4 @@
-# Webpage of Arya Kaul
+# [Webpage of Arya Kaul](aryakaul.github.io)
 
 ## Acknowledgments 
 Special thank you to the following individuals whose websites I shamelessly borrowed formatting and ideas from:

@@ -1,0 +1,151 @@
+body {
+  font-family: Helvetica, Arial, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%; 
+}
+    
+img {
+        max-width:100%;
+        vertical-align:middle;
+        margin-right:10px;
+        margin-bottom:10px;
+}
+
+.site-header {
+    border-top:5px solid #424242;
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 56px;
+    position: relative; 
+}
+   
+.site-title {
+    font-size: 37px;
+    line-height: 56px;
+    letter-spacing: -1px;
+        margin-bottom:10px;
+        padding:10px
+} 
+
+a {
+    color:#2a7ae2;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#111;
+    text-decoration:underline;
+}
+    
+#container {
+    width:70%;
+    margin: auto;
+    padding-bottom:40px;
+}
+
+#menu {
+    width: auto;
+    height: auto;
+    float: center;
+    margin-top: 16px;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+
+#menu ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+    
+#menu #nav li {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    float:left;
+}
+
+#menu #nav li a {
+    display: block;
+    color: #666;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+#menu #nav li a:hover:not(.active) {
+    background-color:#ddd; 
+    font-style:italic;
+    color=#000000
+}
+
+#menu #nav li a.active {
+    color:white;
+    background-color:black;
+    font-style:italic;
+}
+
+b {
+    font-weight:bold;
+}
+
+#project-wrapper {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-bottom: 40px;
+}
+
+#project-wrapper .project-left-odd {
+    padding-right:10px;
+	flex:0 0 150px;
+	text-align:center;
+}
+
+#project-wrapper .project-left-even {
+    border-right: 2px solid grey;
+    padding-right:40px;
+	flex:1;
+	text-align:left;
+}
+
+
+#project-wrapper #name {
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom:0;
+}
+
+#project-wrapper #authors {
+    font-style:italic;
+    font-size:12px;
+}
+
+#project-wrapper .project-right-odd{
+	border-left: 2px solid grey;
+	flex:1;
+	padding-left:40px;
+}
+
+#project-wrapper .project-right-even{
+    flex:0 0 150px;
+    text-align:center;
+    padding-left:10px;
+}
+
+.resume h3{
+    font-weight:100;
+}
+
+#container .resume ul{
+   padding:1;
+   font-size:13px;
+   margin:0;
+}
+
+.resume h4 {
+    font-weight:100;
+}

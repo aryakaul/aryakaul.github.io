@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset"utf-8">
+        <title>Arya Kaul | Projects</title>
+        <meta name="description" content="Arya Kaul's Projects"> 
+	    <link rel="stylesheet" href="../css/styles.css"> 
+        <script src="https://use.fontawesome.com/d16fd938d8.js"></script>
+    </head>
+    
+    <body>
+    
+    <header class="site-header">
+    
+    <div id="container">
+	    <p class="site-title">Arya Kaul</p>
+		<div id="menu">
+		    <ul id="nav">
+			<li><a href="../index.html">About</a></li>
+			<li><a href="../publication-page/pub.html"> Publications </a></li>
+			<li><a class="active" href="../projects-page/projects.html">Projects</a></li>
+			<!--<li><a href="./blog-page/blog.html">Blog</a></li>-->
+			<li><a href="../resume-page/res.html">Resume</a></li>
+			<li><a href="../contact-page/contact.html">Contact</a></li>
+		    </ul>
+		</div><br>
+  
+    <!--FIT-HI-C -->
+    <div id="project-wrapper" style="background-color:TODO">
+		<div class="project-left-odd">
+            <p id="name"><img src="../pics/fit-hi-c.png" width=110 hspace="20" vspace="10"> </img> 
+			Fit-Hi-C</p>
+			<span id="authors">Ferhat Ay, Arya Kaul</span>
+		</div> 
+
+		<div class="project-right-odd"> 
+			<p id="description">Fit-Hi-C is a Python3 tool to generate statistical confidence estimates for Hi-C data to reveal significant chromatin contacts. Fit-Hi-C works by fitting a monotonically decreasing spline to the probability of a contact given the genomic distance of the interaction genetic loci. The null hypothesis may then be refined by refitting a new spline after discarding outliers. Fit-Hi-C was first developed by Dr. Ferhat Ay, and I've been working on optimizing the code for speed and memory usage. Fit-Hi-C is freely available and easily installable through the Python Package Index or Github.</p>
+                <ul style="text-align:center">
+                <a href="https://pypi.org/project/fithic/" target="_blank"><li class="fa fa-fw fa-3x fa-pied-piper-pp"></li></a> 
+                <a href="https://github.com/ay-lab/fithic" target="_blank"><li class="fa fa-fw fa-3x fa-github"></li></a> 
+                </ul>
+		</div>
+	</div> 
+
+
+    <!--HICKRY -->
+    <div id="project-wrapper">
+		<div class="project-left-even">
+			<p id="description">HiCKRy is a Python3 tool to normalize Hi-C contact maps using the Knight-Ruiz algorithm for matrix balancing. The normalization is done under an assumption of equal visibility i.e. if there were no bias then each locus in the genome would give rise to an equal number of reads in a Hi-C experiment. This normalization allows the user to correct for all factors that may cause bias without explicitly modeling them. The KR algorithm has been demonstrated to be significantly faster than the iterative method employed by Imakaev et al., and has been shown to be scalable to high resolution Hi-C datasets. HiCKRy was entirely coded by myself, with guidance and support from Dr. Ferhat Ay. HiCKRy is freely available <!--and easily installable through the Python Package Index--> on Github.</p>
+                <ul style="text-align:center">
+                <!--<a href="https://pypi.org/project/hickry/" target="_blank"><li class="fa fa-fw fa-3x fa-pied-piper-pp"></li></a>-->
+                <a href="https://github.com/ay-lab/HiCKRy" target="_blank"><li class="fa fa-fw fa-3x fa-github"></li></a> 
+                </ul>
+		</div> 
+
+		<div class="project-right-even"> 
+			<p id="name"><img src="../pics/hickry.png" width=140 hspace="10" vspace="10"></img>HiCKRy</p>
+			<span id="authors">Arya Kaul, Ferhat Ay</span>
+		</div>
+	</div> 
+
+
+
+    <!--HOTWASP-->
+    <div id="project-wrapper">
+
+		<div class="project-left-odd"> 
+            <p id="name"><img src="../pics/hotwasp.png" width=100 hspace="20" vspace="10"> </img> 
+			HotWASp</p>
+			<span id="authors">Arya Kaul, <br>Alex Hakansson, Vincent Hu</span>
+		</div>
+		<div class="project-right-odd">
+			<p id="description">Genome wide association studies (GWAS) represent a powerful tool to interrogat the relationship between genetic variation and diseases. Unfortunately, conventional GWAS studies suffer from an extremely high statistical burden due to the extreme number of hypotheses being tested. To help boost the statistical power of GWAS, HotWASp was developed. HotWASp works by running heat propagation on a given gene-gene network with initial heats inversely correlated with the p-values found through GWAS. HotWASp was developed as part of the final project for BNFO 286, a graduate level course on Network Biology and Biomedicine taught by Dr. Trey Ideker. Code is freely accessible through Github.</p>
+                <ul style="text-align:center">
+                <a href="https://github.com/aryakaul/HotWASp" target="_blank"><li class="fa fa-fw fa-3x fa-github"></li></a> 
+                </ul>
+		</div> 
+	</div> 
+
+    <!--TEREX-->
+    <div id="project-wrapper">
+		<div class="project-left-even">
+			<p id="description">Transposable elements (TEs) are unique DNA sequences capable of autonomously 'moving' around the genome. Found abundantly throughout eukaryotic and prokaryotic genomes, TEs are capable of driving genomic evolution and gene regulation by enabling translocation, causing exon shuffling, and increasing genetic diversity. TErex presents a simple tool to easily identify all transposable elements given an input fasta sequence file using the Dfam database. TErex was developed as part of the final project for CSE 180, Biology meets Computing. The tool is freely accessible through Github.</p>
+                <ul style="text-align:center">
+                <a href="https://github.com/aryakaul/TErex1.0" target="_blank"><li class="fa fa-fw fa-3x fa-github"></li></a> 
+                </ul>
+		</div> 
+
+		<div class="project-right-even"> 
+            <p id="name"><img src="../pics/terex.png" width=100 hspace="20" vspace="10"> </img> 
+			TErex</p>
+			<span id="authors">Arya Kaul, Jenny Lee, Lowan Kim, Jigar Patel</span>
+		</div>
+	</div> 
+
+
+    </body>
+</html>
+

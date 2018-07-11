@@ -127,6 +127,7 @@ b {
     padding-right:10px;
 	flex:0 0 150px;
 	text-align:center;
+    margin:auto;
 }
 
 #project-wrapper .project-left-even {
@@ -158,6 +159,7 @@ b {
     flex:0 0 150px;
     text-align:center;
     padding-left:10px;
+    margin: auto;
 }
 
 .resume h3{

@@ -114,6 +114,49 @@ a:hover {
     font-style:italic;
 }
 
+#menu-mini {
+    width: auto;
+    height: auto;
+    float: center;
+    margin-top: 1px;
+    padding-bottom: 2px;
+}
+
+
+#menu-mini ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+    
+#menu-mini #nav li {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    float:center;
+    font-size: 15px;
+}
+
+#menu-mini #nav li a {
+    display: block;
+    color: #666;
+    text-align:center;
+    padding: 10px 12px;
+    text-decoration:none;
+}
+
+#menu-mini #nav li a:hover:not(.active) {
+    background-color:#ddd; 
+    font-style:italic;
+    color=#000000
+}
+
+#menu-mini #nav li a.active {
+    color:white;
+    background-color:black;
+    font-style:italic;
+}
+
 b {
     font-weight:bold;
 }
